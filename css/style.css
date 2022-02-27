@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(47, 58, 105);
+    margin: 0;
+    font-family: 'PT Serif', serif;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    height: auto;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    display: flex;
+    margin-bottom: 10px;
+    width: 100%;
+    justify-content: center;
+    font-size: 40px;
+    color: white;
+    background-color: rgba(131, 46, 61, 0.75);
+}
+
+@media screen and (min-width: 1080px) {
+    .box {
+        padding: 15px;
+        margin: 15px 10px 10px 10px;
+        background-color: rgba(34, 32, 32, 0.75);
+        box-shadow: 0.5px 0.5px 10px 0px rgb(97, 55, 212);
+        border-radius: 2em;
+        width: 50%;
+        height: auto;
+        color: lightgray;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .box {
+        padding: 15px;
+        margin: 15px 10px 10px 10px;
+        background-color: rgba(31, 16, 66, 0.75);
+        box-shadow: 0.5px 0.5px 10px 0px rgb(200, 195, 206);
+        border-radius: 2em;
+        width: 80%;
+        height: auto;
+        color: lightgray;
+    }
+}
+
+
+.buttons {
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    opacity: 1;
+}
+
+.btn {
+    border: solid;
+    border-bottom-style: groove;
+    color: white;
+    background-color: #4e4e4e;
+    font-family: 'Lato', sans-serif;
+    padding: 10px;
+    border-radius: 1.25em;
+    transition-duration: 0.08s;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+.btn:active {
+    background-color: #2e1569;
+    transform: translateY(4px);
+}
+
+.text-input {
+    border-radius: 1em;
+    border: 0px rgba(110, 88, 207, 0.2);
+    display: flex;
+    padding: 0.5em;
+    width: 100%;
+    height: 50px;
+    outline-color: #747474;
+}
+
+h2 {
+    display: flex;
+    font-size: 20px;
+    font-family: 'PT Serif', serif;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+#sub-msg {
+    display: flex;
+    margin-bottom: 5px;
+    margin-left: 3px;
+    font-size: 14px;
+    text-align: justify;
+}
+
+#error {
+    display: flex;
+    margin-top: 5px;
+    margin-left: 3px;
+    color: red;
+    justify-content: right;
+    font-size: 14px;
+}
+
+.btn:hover {
+    box-shadow: 0px 2px 10px 0px rgb(37, 48, 83);
+}
+.header {
+    text-align: left;
+    width: 100;
+}
+footer {
+    text-align: left;
+    margin-top: 6vh;
+    margin-bottom: 10px;
+    width: 100%;
+    color: rgb(152, 147, 172);
+}
