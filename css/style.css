@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: rgb(47, 58, 105);
+    background-color: rgb(197, 205, 240);
     margin: 0;
     font-family: 'PT Serif', serif;
     display: block;
@@ -27,7 +27,7 @@ body {
     justify-content: center;
     font-size: 40px;
     color: white;
-    background-color: rgba(131, 46, 61, 0.75);
+    background-color: rgba(241, 209, 215, 0.75);
 }
 
 @media screen and (min-width: 1080px) {
@@ -35,7 +35,7 @@ body {
         padding: 15px;
         margin: 15px 10px 10px 10px;
         background-color: rgba(34, 32, 32, 0.75);
-        box-shadow: 0.5px 0.5px 10px 0px rgb(97, 55, 212);
+        box-shadow: 0.5px 0.5px 10px 0px rgb(197, 187, 226);
         border-radius: 2em;
         width: 50%;
         height: auto;
@@ -47,7 +47,7 @@ body {
     .box {
         padding: 15px;
         margin: 15px 10px 10px 10px;
-        background-color: rgba(31, 16, 66, 0.75);
+        background-color: rgba(183, 165, 225, 0.75);
         box-shadow: 0.5px 0.5px 10px 0px rgb(200, 195, 206);
         border-radius: 2em;
         width: 80%;
@@ -78,13 +78,13 @@ body {
 }
 
 .btn:active {
-    background-color: #2e1569;
+    background-color: #685c84;
     transform: translateY(4px);
 }
 
 .text-input {
     border-radius: 1em;
-    border: 0px rgba(110, 88, 207, 0.2);
+    border: 0px rgba(165, 153, 219, 0.2);
     display: flex;
     padding: 0.5em;
     width: 100%;
@@ -114,13 +114,13 @@ h2 {
     display: flex;
     margin-top: 5px;
     margin-left: 3px;
-    color: red;
+    color: rgb(246, 137, 137);
     justify-content: right;
     font-size: 14px;
 }
 
 .btn:hover {
-    box-shadow: 0px 2px 10px 0px rgb(37, 48, 83);
+    box-shadow: 0px 2px 10px 0px rgb(94, 97, 106);
 }
 .header {
     text-align: left;
